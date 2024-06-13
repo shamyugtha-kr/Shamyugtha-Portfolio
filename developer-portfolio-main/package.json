@@ -6,9 +6,11 @@
   "homepage": "https://shamyugtha-kr.github.io/Shamyugtha-Portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "deploy": "npm run build && gh-pages -d out",
-    "start": "next start",
+  "build": "next build",
+  "start": "next start",
+  "export": "next export",
+  "predeploy": "npm run build && npm run export",
+  "deploy": "gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,7 +24,8 @@
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
-    "react-toastify": "^10.0.4"
+    "react-toastify": "^10.0.4",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "autoprefixer": "latest",
