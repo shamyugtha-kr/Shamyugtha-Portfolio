@@ -6,10 +6,8 @@
   "homepage": "https://shamyugtha-kr.github.io/Shamyugtha-Portfolio",
   "scripts": {
     "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
