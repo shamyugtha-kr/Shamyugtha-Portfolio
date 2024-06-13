@@ -3,7 +3,7 @@
   "description": "Portfolio of Shamyugtha K R",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shamyugtha-kr.github.io/",
+  "homepage": "https://shamyugtha-kr.github.io/Shamyugtha-Portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
