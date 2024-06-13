@@ -1,7 +1,7 @@
-import CCTV_Img from "../../../../public/png/projimage/cctv.png"
-import Ecom_Img from "../../../../public/png/projimage/ecom.png"
+import CCTV_Img from "../../../../public/png/projimage/cctv.jpg"
+import Ecom_Img from "../../../../public/png/projimage/ecom.jpeg"
 import DRDO_Img from "../../../../public/png/projimage/drdo.png"
-import Fraud_Img from "../../../../public/png/projimage/fraudDetect.png"
+import Fraud_Img from "../../../../public/png/projimage/fraudDetect.jpeg"
 
 export const ProjectData = [
     {
